@@ -9,9 +9,36 @@
   <meta name="description" content="Site de l'école maternelle Alphonse Daudet anciennement Le Colombier à Pignans"/>
   <link rel="stylesheet" href="style.css"/>
   <link rel="icon" type="image/png" href="images/flavicon.png" />
+  
+  <!-- image sur souris -->
+        <script type="text/javascript">
+                document.onmousemove = suitsouris;
+                function suitsouris(evenement)
+                {
+                        if(navigator.appName=="Microsoft Internet Explorer")
+                        {
+                                var x = event.x+document.body.scrollLeft;
+                                var y = event.y+document.body.scrollTop;
+                        }
+                        else
+                        {
+                                var x =  evenement.pageX;
+                                var y =  evenement.pageY;
+                        }
+                        document.getElementById("image_suit_souris").style.left = (x+1)+'px';
+                        document.getElementById("image_suit_souris").style.top  = (y+1)+'px';
+                }
+        </script>
+        <!-- image sur souris -->
+  
 </head>
 
 <body>
+  
+  <!-- image sur souris -->
+  <img src="images/image.png" alt="Image qui suit la souris" id="image_suit_souris" style="position:absolute;display:block;z-index:5;" />
+  <!-- image sur souris -->
+
   <div id="conteneur">    
     <h1 id="header"><a href="#" title="Ecole Alphonse Daudet - Accueil"></a></h1>
     <nav>
