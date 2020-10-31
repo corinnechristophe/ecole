@@ -73,8 +73,25 @@ div#defilement
 
 div#contenu
 {
-	padding: 0 50px 0 50px ;
-	
+	padding: 0 50px 0 50px ;	
+}
+
+div#condoleances
+{
+	background-color: black ;
+	margin-left: -50px ;
+	margin-right: -50px ;
+	height: 100px ;
+}
+
+div#condoleances p
+{
+	font-size: 2.2em ;
+	color: white;
+	position: relative ;
+	text-align: justify ;
+	left: 45px ;
+	padding-top: 25px ;
 }
 
 div#contenu h2
