@@ -78,7 +78,7 @@ div#contenu
 
 div#condoleances
 {
-	background-color: black ;
+	background-color: #000 ;
 	margin-left: -50px ;
 	margin-right: -50px ;
 	height: 100px ;
@@ -87,7 +87,7 @@ div#condoleances
 div#condoleances p
 {
 	font-size: 2.2em ;
-	color: white;
+	color: #FFF;
 	position: relative ;
 	text-align: justify ;
 	left: 45px ;
