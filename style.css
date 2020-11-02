@@ -71,17 +71,10 @@ div#defilement
 	margin-right: -50px ;
 }
 
-div#contenu
-{
-	padding: 0 50px 0 50px ;	
-}
-
 /* condoléances */
 div#condoleances
 {
 	background-color: #000 ;
-	margin-left: -50px ;
-	margin-right: -50px ;
 	height: 100px ;
 }
 
@@ -90,11 +83,15 @@ div#condoleances p
 	font-size: 2.2em ;
 	color: #FFF;
 	position: relative ;
-	text-align: justify ;
-	left: 45px ;
-	padding-top: 25px ;
+	top: 50% ;left: 50% ;
+	transform: translate(-41%, -50%= ;
 }
 /* condoléances */
+
+div#contenu
+{
+	padding: 0 50px 0 50px ;	
+}
 
 div#contenu h2
 {
