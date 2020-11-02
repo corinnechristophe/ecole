@@ -81,8 +81,9 @@ div#condoleances p
 	font-size: 2.2em ;
 	color: #FFF;
 	position: relative ;
-	top: 50% ;left: 50% ;
-	transform: translate(-41%, -50%) ;
+	text-align: center ;
+	top: 50% ;
+	transform: translateY(-50%) ;
 }
 /* condoléances */
 
