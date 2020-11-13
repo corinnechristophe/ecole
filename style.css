@@ -80,10 +80,10 @@ div#condoleances p
 {
 	font-size: 2.2em ;
 	color: #FFF;
-	position: relative ;
+	position: relative ; /* postulat de départ */
 	text-align: center ;
-	top: 50% ;
-	transform: translateY(-50%) ;
+	top: 50% ; /* poussé de la moitié de hauteur du référent */
+	transform: translateY(-50%) ; /* tiré de la moitié de sa propre hauteur */
 }
 /* condoléances */
 
