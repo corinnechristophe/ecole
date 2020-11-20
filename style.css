@@ -31,7 +31,7 @@ h1#header a
 
 ul#menu
 {
-	height: 25px ;
+	height: 30px ;
 	margin: 0 ;
 	padding: 0 ;
 	background: #CD82B3 ;
@@ -47,7 +47,7 @@ ul#menu li
 ul#menu li a
 {
 	width: 125px ;
-	line-height: 25px ;
+	line-height: 30px ;
 	font-size: 1.2em ;
 	font-weight: bold ;
 	letter-spacing: 2px ;
