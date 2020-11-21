@@ -74,11 +74,14 @@ div#condoleances
 {
 	background-color: #000 ;
 	height: 100px ;
+	margin-left: 50px ;
+	margin-right: 50px ;
+	box-shadow: 10px 5px 5px black ;
 }
 
 div#condoleances p
 {
-	font-size: 2.2em ;
+	font-size: 2.0em ;
 	color: #FFF;
 	position: relative ; /* postulat de départ */
 	text-align: center ;
